@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>심사원 시험 연습</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <button class="brand" id="homeBtn" type="button" aria-label="처음 화면으로">
+      <span class="brand-mark">SF</span>
+      <span class="brand-text">
+        <strong>스마트공장 수준확인 심사원</strong>
+        <small>11주차 시험 예상문제 연습</small>
+      </span>
+    </button>
+    <div class="topbar-right" id="topbarRight"></div>
+  </header>
+
+  <main id="app" class="container"></main>
+
+  <footer class="footer">
+    예상문제 출처: claude.pdf(객관식 100 + 단답형 20), gemini.pdf(객관식 100) · 실제 기출문제가 아니므로 교재와 대조해서 학습하세요.
+  </footer>
+
+  <script src="data/questions.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
